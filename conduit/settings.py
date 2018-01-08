@@ -137,12 +137,9 @@ MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media_cdn")
 
 CORS_ORIGIN_WHITELIST = (
-    '0.0.0.0:4000',
-    'localhost:4000',
     '0.0.0.0:4100',
     'localhost:4100',
-    '0.0.0.0:4200',
-    'localhost:4200',
+    'sleepy-thicket-89567.herokuapp.com'
 )
 
 # Tell Django about the custom `User` model we created. The string
